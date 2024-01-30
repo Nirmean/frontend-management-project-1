@@ -12,8 +12,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
-  <h1>Hello there</h1>
+  <!-- Header container: div container with various nav items > anchor tag with logo, nav list items, get started button -->
   <header class="primary-header">
     <div class="container">
       <a href="#"><img src="./images/logo.svg" alt="manage company logo"></a>
@@ -29,6 +30,28 @@
       <button class="button">Get Started</button>
     </div>
   </header>
+
+  <!-- main section: includes 4 sections -->
+  <main>
+    <!-- 1st Section to include: 
+      container to hold all content 
+        container to hold 2 columns of content
+          2 divs (one for each piece of content)  -->
+    <section>
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <h1 class="fs-primary-heading fw-bold">Bring everyone together to build better products</h1>
+            <p>Manage makes it simple for software developers to plan day-to-day tasks.</p>
+            <button class="button">Get Started</button>
+          </div>
+          <div>
+            <img src="./images/illustration-intro.svg" alt="bars, graphs and percentages">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <script type="module" src="/main.js"></script>
 </body>
